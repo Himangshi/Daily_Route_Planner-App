@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Daily Route Planner</string>
+    <string name="daily_route_planner">Daily Route Planner</string>
+    <string name="login">LOGIN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="todo_map">TODOmap</string>
+    <string name="proceed_without_login">Proceed without login</string>
+    <string name="todo_flag">TODOflag</string>
+    <string name="Register">Register</string>
+</resources>
