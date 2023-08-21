@@ -41,6 +41,7 @@ public class SignUpActivity extends AppCompatActivity {
                 String email=edEmail.getText().toString();
                 String password=edPassword.getText().toString();
                 String confirm=edConfirm.getText().toString();
+                Database db= new Database(getApplicationContext(),"Daily-route-planner",null,1);
                 if(username.length()==0||email.length()==0||password.length()==0||confirm.length()==0)
                 {
                     Toast.makeText(getApplicationContext(),"Please fill all details!",Toast.LENGTH_SHORT).show();
@@ -50,7 +51,7 @@ public class SignUpActivity extends AppCompatActivity {
                         Toast.makeText(getApplicationContext(),"Password and Confirm Password did not match!",Toast.LENGTH_SHORT).show();
                     else{
                         if(isValid(password)){
-
+                            db.register(username,email,password);
                             Toast.makeText(getApplicationContext(),"Record Inserted",Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(SignUpActivity.this,LoginActivity.class));
                         }

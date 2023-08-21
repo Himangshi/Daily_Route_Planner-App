@@ -32,10 +32,10 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.78" />
+        app:layout_constraintVertical_bias="0.757" />
 
     <Button
         android:id="@+id/SIGN_UP_button2"
@@ -49,31 +49,32 @@
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.903" />
+        app:layout_constraintVertical_bias="0.887" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="307dp"
         android:layout_height="307dp"
+        android:contentDescription="@string/todo_map"
         app:layout_constraintBottom_toBottomOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/treasure_map"
-        android:contentDescription="@string/todo_map" />
+        app:layout_constraintVertical_bias="0.453"
+        app:srcCompat="@drawable/treasure_map" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="94dp"
         android:layout_height="85dp"
+        android:contentDescription="@string/todo_flag"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintHorizontal_bias="0.88"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.266"
-        app:srcCompat="@drawable/maps_and_flags"
-        android:contentDescription="@string/todo_flag" />
+        app:layout_constraintVertical_bias="0.239"
+        app:srcCompat="@drawable/maps_and_flags" />
 
     <Button
         android:id="@+id/button3"
